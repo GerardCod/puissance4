@@ -8,7 +8,9 @@ import com.iutlr.puissance4.exceptions.PlateauInvalideException;
 import java.util.List;
 
 public class Plateau {
-
+    private int largeur;
+    private int hauteur;
+    private List<Joueur> joueurs;
     /**
      * Construit un nouveau plateau de jeu vide
      * @param largeur la largeur du plateau
@@ -19,6 +21,15 @@ public class Plateau {
      */
     public Plateau(int largeur, int hauteur, List<Joueur> joueurs) throws PlateauInvalideException, JoueurException {
      // TODO
+        if (largeur < 4 || hauteur < 4) {
+            throw new PlateauInvalideException();
+        } else if (joueurs.size() > 5) {
+            throw new JoueurException();
+        } else {
+            this.largeur = largeur;
+            this.hauteur = hauteur;
+            this.joueurs = joueurs;
+        }
     }
 
     /**
@@ -27,7 +38,7 @@ public class Plateau {
      */
     public int getLargeur() {
         // TODO
-        return -1;
+        return this.largeur;
     }
 
     /**
@@ -36,7 +47,7 @@ public class Plateau {
      */
     public int getHauteur() {
         // TODO
-        return -1;
+        return this.hauteur;
     }
 
     /**
@@ -46,7 +57,7 @@ public class Plateau {
      */
     public Joueur getJoueurCourant() throws JoueurException {
         // TODO
-        return null;
+        return joueurs.get(0);
     }
 
     /**
@@ -68,6 +79,6 @@ public class Plateau {
      */
     public Joueur getGagnant() {
         // TODO
-        return null;
+        return joueurs.get(0);
     }
 }

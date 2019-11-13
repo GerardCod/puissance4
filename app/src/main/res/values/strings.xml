@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Puissance4</string>
+    <string name="nombre_joueurs">Nombre de joueurs</string>
+    <string name="largeur">Largeur du plateau</string>
+    <string name="hauteur">Hauteur du plateau</string>
+    <string name="taille">Taille du plateau</string>
+    <string name="joueurs">Joueurs</string>
+    <string name="partie">Creer partie</string>
+    <string name="btn_ajouter">Ajouter</string>
+    <string name="txt_nombre_joueur">Joueur 1</string>
+    <string name="edt_nom">Saissisez le nom</string>
+    <string name="btn_delete">Supprimer</string>
 </resources>

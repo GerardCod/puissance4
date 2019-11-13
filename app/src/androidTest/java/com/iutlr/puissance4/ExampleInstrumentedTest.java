@@ -23,4 +23,6 @@ public class ExampleInstrumentedTest {
 
         assertEquals("com.iutlr.puissance4", appContext.getPackageName());
     }
+
+
 }
