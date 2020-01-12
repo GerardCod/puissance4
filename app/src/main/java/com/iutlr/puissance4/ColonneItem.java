@@ -3,8 +3,8 @@ package com.iutlr.puissance4;
 import android.content.Context;
 import android.support.constraint.ConstraintLayout;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 public class ColonneItem extends ConstraintLayout implements View.OnClickListener {
     private Context context;
@@ -17,7 +17,7 @@ public class ColonneItem extends ConstraintLayout implements View.OnClickListene
         super(context);
         this.context = context;
         this.colonneId = colonneId;
-        inflate(this.context, R.layout.colonne_item, this);
+        inflate(this.context, R.layout.celule_item, this);
         this.pleine = false;
         this.parent = parent;
         imageColonne = findViewById(R.id.imageColonne);
