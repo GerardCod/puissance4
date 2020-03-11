@@ -8,4 +8,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ButtonStyle" parent="TextAppearance.AppCompat.Widget.Button">
+        <item name="android:background">@drawable/round_button</item>
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorLight</item>
+    </style>
 </resources>
