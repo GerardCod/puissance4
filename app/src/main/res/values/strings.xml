@@ -23,6 +23,11 @@
     <string name="content_player_description">player avatar</string>
     <string name="player_name_sample">Player 10</string>
     <string name="colonne_description">Colonne du plateau</string>
+    <string name="dialog_win_title">Victoire</string>
+    <string name="dialog_draw_title">Egal</string>
+
+    <string name="bouton_ok">Ok</string>
+    <string name="bouton_non">Non</string>
 
     <string-array name="players_quantity">
         <item>2</item>

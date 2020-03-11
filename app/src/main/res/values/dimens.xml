@@ -2,4 +2,5 @@
 <resources>
     <dimen name="radius_button">10dp</dimen>
     <dimen name="margin120">120dp</dimen>
+    <dimen name="cell_dimension">80dp</dimen>
 </resources>
